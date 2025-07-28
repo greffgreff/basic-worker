@@ -5,6 +5,7 @@
 	"scripts": {
 		"start": "wrangler dev",
 		"start:remote": "wrangler dev --remote",
+		"deploy": "wrangler deploy",
 		"typegen": "wrangler types ./src/types/cloudflare.d.ts"
 	},
 	"devDependencies": {
