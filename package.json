@@ -1,0 +1,15 @@
+{
+	"name": "basic-worker",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "wrangler dev",
+		"start:remote": "wrangler dev --remote",
+		"typegen": "wrangler types ./src/types/cloudflare.d.ts"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20231218.0",
+		"typescript": "^5.0.4",
+		"wrangler": "^4.26.0"
+	}
+}
