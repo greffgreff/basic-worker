@@ -2,3 +2,4 @@ src/*.wasm
 src/*.wasm.*
 node_modules
 .wrangler
+.DS_Store
